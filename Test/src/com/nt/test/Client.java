@@ -7,6 +7,7 @@ public class Client {
 		
 		System.out.println("Addition of two number :"+MathOperation.add(10,20));
 		System.out.println(WishGenerator.getMessage("pintu"));
+		Country.getCountry();
 
 	}
 	

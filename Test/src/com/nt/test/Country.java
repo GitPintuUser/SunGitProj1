@@ -3,7 +3,7 @@ package com.nt.test;
 import java.util.Locale;
 
 public class Country {
-	public void getCountry(){
+	public static void getCountry(){
 		Locale locales[]=Locale.getAvailableLocales();
 		
 		for(Locale locale:locales){
